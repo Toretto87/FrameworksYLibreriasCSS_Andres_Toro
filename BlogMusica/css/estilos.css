@@ -1,0 +1,54 @@
+.logored {
+  width: 30px;
+}
+
+.logopag {
+  width: 150px;
+}
+
+.redes {
+  margin-top: 60px;
+}
+
+.siguenos {
+  margin-right: 40px;
+}
+
+.menu {
+  width: 100%;
+}
+
+.menuitem {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.row{
+  width: 100%;
+}
+
+[class~=menuitem] :hover {
+  background: #cccccc !important;
+}
+
+.nomargingright {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.nopaddingupdown {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.tabla {
+  margin-bottom: 0;
+}
+
+.nobackgrownd {
+  background: none;
+}
