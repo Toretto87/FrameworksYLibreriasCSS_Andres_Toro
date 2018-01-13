@@ -1,7 +1,8 @@
 body {
-  background-color: #52aafe;
+  background-color: #2196F3;
   padding:0 !important;
   margin: 0px !important;
+  overflow-x: hidden;
 }
 
 .container {
@@ -9,16 +10,19 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position: center 100px;
+  background-position: center 140px;
   width: 100% !important;
-  margin: 0px;
+  padding:0px !important;
+  margin-right: -6px !important;
   max-width: 1440px;
 }
 
 .logo {
   width: 85px;
+  height: 130px;
   margin-top: 5px;
   margin-left: 5px;
+  border-radius: 10px;
 }
 
 .menu{
@@ -29,7 +33,139 @@ body {
   margin-bottom: 0px;
 }
 
+.no-margin-b {
+  margin-bottom: 0px;
+}
+
 .slogan-container {
   margin-top: 0px;
   box-sizing: border-box;
+  padding-right: 0px !important;
+}
+
+.redes {
+  width: 40px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.img-galeria {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.gal-der {
+  padding-right: 5px !important;
+  padding-left: 5px;
+
+}
+
+.no-padding-r {
+  padding-right: 0px !important;
+}
+
+.no-padding-l {
+  padding-left: 0px !important;
+}
+
+.margen-izq {
+  margin-left: 10px !important;
+}
+
+.margen-der {
+  margin-right: 15px !important;
+}
+
+.padding-der {
+  padding-right: 10px;
+}
+
+.padding-izq {
+  padding-left: 10px;
+}
+
+.entrada-cont {
+  margin-top: 25px;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.entrada {
+  padding-left: 5px !important;
+  margin-top: 5px;
+  padding-right: 5px !important;
+}
+
+.img-entrada {
+  width: 35%;
+  min-width: 180px;
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.titulo-entrada {
+  margin-bottom: 15px;
+}
+
+.redes:hover {
+  opacity: 0.7;
+}
+
+.autor {
+  margin-top: 5px;
+  padding-right: 0px !important;
+}
+
+.autor-img {
+  width: 70%;
+  padding-top: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+@media (max-width: 600px) {
+  .gal-der {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    padding-right: 0px !important;
+  }
+
+  .entrada {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+
+  .entrada-cont {
+    margin: 10px !important;
+    padding-left: 10.5px;
+    padding-right: 10.5px;
+  }
+
+  .padding-der {
+    padding-right: 0px;
+  }
+
+  .entrada {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  .img-entrada {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .no-margin-r {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
+
+  .menu {
+    margin-right: 0px;
+  }
+
+  .autor {
+    padding-right: 10px !important;
+  }
 }
