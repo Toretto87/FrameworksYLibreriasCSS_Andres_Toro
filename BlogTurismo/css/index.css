@@ -1,0 +1,35 @@
+body {
+  background-color: #52aafe;
+  padding:0 !important;
+  margin: 0px !important;
+}
+
+.container {
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center 100px;
+  width: 100% !important;
+  margin: 0px;
+  max-width: 1440px;
+}
+
+.logo {
+  width: 85px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.menu{
+  margin-right: 10px;
+}
+
+.menu-container {
+  margin-bottom: 0px;
+}
+
+.slogan-container {
+  margin-top: 0px;
+  box-sizing: border-box;
+}
