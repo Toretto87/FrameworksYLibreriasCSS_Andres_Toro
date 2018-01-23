@@ -37,7 +37,7 @@ body {
 }
 
 .colder {
-  background-color: rgba(224, 217, 253, 0.9);
+
   padding: 10px;
   margin-right: -20px;
 }
@@ -64,11 +64,29 @@ body {
 
 .imagenes {
   width: 100%;
-  padding-bottom: 10px;
 }
 
-h5 {
+.titulo-seccion {
   color: rgb(50,50,50);
+}
+
+h6 {
+  color: gray;
+}
+
+.comentario {
+  border: 1px solid gray;
+  margin: 3px 5px !important;
+}
+
+.comentario div{
+  padding: 5px;
+}
+
+.entrada {
+  margin-bottom: 20px !important;
+  background-color: rgba(224, 217, 253, 1);
+  padding: 10px !important;
 }
 
 @media (max-width: 639px) {
