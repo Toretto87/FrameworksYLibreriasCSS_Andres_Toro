@@ -13,11 +13,62 @@ body {
 
 .encabezado {
   border-bottom: 2px solid rgba(255,255,255,0.3);
+  padding-left: 10px;
+  max-width: 100rem;
 }
 
 .titulo {
   border-right: 2px solid rgba(255,255,255,0.3);
   margin-bottom: 10px;
+  color: rgb(50,50,50);
+}
+
+.contenido {
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 30px;
+  max-width: 100rem;
+}
+
+.colizq {
+  background-color: rgba(224, 217, 253, 0.9);
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.colder {
+  background-color: rgba(224, 217, 253, 0.9);
+  padding: 10px;
+  margin-right: -20px;
+}
+
+.menu-ppal li {
+  border: 1px solid rgb(100,100,100);
+}
+
+.menu-ppal li a, .historial li a {
+  color: rgb(50,50,50);
+}
+
+.colizq .seccion {
+  padding: 15px 3px;
+}
+
+.fila-img {
+  padding: 10px;
+}
+
+.fila-img div {
+  padding-bottom: 5px;
+}
+
+.imagenes {
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+h5 {
+  color: rgb(50,50,50);
 }
 
 @media (max-width: 639px) {
